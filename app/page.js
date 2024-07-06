@@ -1,5 +1,5 @@
-function Header() {
-    let name = 'Rixkson...'
+function Header({name}) {
+
     return(
         <h1>Hello {name}</h1>
     )
@@ -8,7 +8,7 @@ function Header() {
 export default function Page() {
     return (
         <section>
-            <Header/>
+            <Header name="rickson123"/>
             <p>this is a paragraph</p>
         </section>
     )
